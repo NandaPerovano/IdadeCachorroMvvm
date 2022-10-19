@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.delegate = self
+        idadeCachorroTextField.delegate = self
     }
 
     @IBAction func calcularResulatdoButton(_ sender: Any) {
@@ -30,5 +31,12 @@ class ViewController: UIViewController {
 extension ViewController: MultiplicacaoDelegate {
     func exibe(resultadoMultiplicacao: String) {
         idadeHumanoLabel.text = resultadoMultiplicacao
+    }
+}
+
+extension ViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 }
