@@ -63,12 +63,12 @@
 				33282A9B28CCB2E2003DC7E3 /* AppDelegate.swift */,
 				33282A9D28CCB2E2003DC7E3 /* SceneDelegate.swift */,
 				33282A9F28CCB2E2003DC7E3 /* ViewController.swift */,
+				3318D30A28CE02480093F852 /* IdadeCachorroViewModel.swift */,
 				33282AA128CCB2E2003DC7E3 /* Main.storyboard */,
 				33282AAF28CCB683003DC7E3 /* calcular-idade.jpeg */,
 				33282AA428CCB2E4003DC7E3 /* Assets.xcassets */,
 				33282AA628CCB2E5003DC7E3 /* LaunchScreen.storyboard */,
 				33282AA928CCB2E5003DC7E3 /* Info.plist */,
-				3318D30A28CE02480093F852 /* IdadeCachorroViewModel.swift */,
 			);
 			path = IdadeCachorroMvvm;
 			sourceTree = "<group>";

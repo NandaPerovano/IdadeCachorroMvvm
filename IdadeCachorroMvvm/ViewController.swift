@@ -31,6 +31,7 @@ class ViewController: UIViewController {
 extension ViewController: MultiplicacaoDelegate {
     func exibe(resultadoMultiplicacao: String) {
         idadeHumanoLabel.text = resultadoMultiplicacao
+        idadeCachorroTextField.text = ""
     }
 }
 
